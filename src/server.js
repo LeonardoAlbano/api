@@ -12,7 +12,7 @@ const app = express();
 // fazendo a request e response 
 // .send (ENVIAR MENSAGEM PARA QUEM SOLICITOU)
 app.get("/", (request, response) => {
-    response.send("Hello, meu maconheiro favorito");
+    response.send("Hello, meu truta")
 })
 
 // Porta
